@@ -9,7 +9,7 @@ var Slope_Button = document.getElementById("Slope_Button")
 // Functions \\
 
 function Open_Slope(){
-    window.location.href = "/SLOPE/Index.html";
+    window.location.href == "/SLOPE/Index.html";
 }
 
 // Events \\
