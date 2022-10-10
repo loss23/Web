@@ -1,6 +1,6 @@
 // Vars \\
 
-var Slope_Button = document.getElementById("Slope_Button");
+var Slope_Button = document.getElementById("Slope_Button")
 
 // Animations \\
 
@@ -14,6 +14,4 @@ function Open_Slope(){
 
 // Events \\
 
-Slope_Button.onclick(){
-    Open_Slope();
-}
+Slope_Button.onclick = Open_Slope();
