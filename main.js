@@ -1,17 +1,6 @@
-// Vars \\
-
-var Slope_Button = document.getElementById("Slope_Button")
-
-// Animations \\
-
-
-
-// Functions \\
-
-function Open_Slope(){
-    window.location.href == "/SLOPE/Index.html";
-}
-
 // Events \\
 
-Slope_Button.onclick = Open_Slope();
+var SlopeButton = document.getElementById("SlopeButton");
+SlopeButton.addEventListener("click", function(event){
+   window.location.href = "games/SLOPE/Index.html"
+});
